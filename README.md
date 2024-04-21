@@ -1,4 +1,4 @@
-![Kittygram workflow](https://github.com/fluegergehaimer/kittygram_final/actions/workflows/main.yml)
+![Kittygram workflow](https://github.com/fluegergehaimer/kittygram_final/actions/workflows/main.yml/badge.svg)
 
 
 # [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=KITTYGRAM)](https://git.io/typing-svg)
