@@ -65,10 +65,6 @@ USER - имя пользователя сервера
 
 
 
-Авторы: 
-```
+Авторы:
 - [команда Yandex-практикума](https://github.com/yandex-praktikum?tab=repositories)
-```
-```
 - [fluegergehaimer](https://github.com/fluegergehaimer)
-```
