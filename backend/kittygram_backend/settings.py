@@ -10,7 +10,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.getenv('SECRET_KEY', default='token')
 
-DEBUG = os.getenv('DEBUG', default='False') == 'True'
+DEBUG = os.getenv('DEBUG', default=False) == 'True'
 
 ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', default='localhost 127.0.0.1').split(' ')
 
@@ -57,7 +57,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'kittygram_backend.wsgi.application'
 
-if os.getenv('DEBUG', default='False') == 'True':
+if os.getenv('SQLITE', default=False) == 'True':
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',
@@ -76,16 +76,6 @@ else:
         }
     }
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': os.getenv('POSTGRES_DB', 'kittygram'),
-#         'USER': os.getenv('POSTGRES_USER', 'kittygram_user'),
-#         'PASSWORD': os.getenv('POSTGRES_PASSWORD', 'kittygram_password'),
-#         'HOST': os.getenv('DB_HOST', 'db'),
-#         'PORT': os.getenv('DB_PORT', 5432)
-#     }
-# }
 
 AUTH_PASSWORD_VALIDATORS = [
     {
