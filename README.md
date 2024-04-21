@@ -18,7 +18,7 @@
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 
 ## Как развернуть проект:
-Ссылка на проект: https://github.com/fluegergehaimer/kittygram_final
+Ссылка на проект: [GitHub repo](https://github.com/fluegergehaimer/kittygram_final)
 
 1.Скопировать <docker-compose.production.yml> из корневой папки проекта
 
@@ -67,8 +67,8 @@ USER - имя пользователя сервера
 
 Авторы: 
 ```
-- команда Yandex-практикума https://github.com/yandex-praktikum?tab=repositories
+- [команда Yandex-практикума](https://github.com/yandex-praktikum?tab=repositories)
 ```
 ```
-- fluegergehaimer https://github.com/fluegergehaimer
+- [fluegergehaimer](https://github.com/fluegergehaimer)
 ```
